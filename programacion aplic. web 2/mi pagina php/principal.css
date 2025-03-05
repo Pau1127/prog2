@@ -1,0 +1,196 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(217deg, rgb(228, 58, 151), rgb(131, 18, 212), rgb(49, 184, 189), rgb(11, 219, 150), rgb(14, 185, 236), rgb(131, 18, 212), rgb(228, 58, 151));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #f5ecee;
+    margin: 0;
+}
+
+/* Fondo personalizado para secciones */
+.bg-custom-1 {
+    background: linear-gradient(217deg, coral, rgba(91, 4, 131, 0.1) 70%);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones de navegación */
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton-volver,
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-volver {
+    background-color: #4CAF50;
+    /* Verde */
+    color: white;
+}
+
+.boton-volver:hover {
+    background-color: #45a049;
+    /* Verde oscuro */
+}
+
+.button {
+    background-color: #007bff;
+    color: rgb(212, 197, 203);
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Espaciado en secciones */
+.section .row {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo de imagen redondeada */
+img.rounded-circle {
+    border: 3px solid #343a40;
+    border-radius: 50%;
+}
+
+/* Texto de párrafos */
+.parrafo-0 {
+    font-size: 1.6rem;
+    color: #222121;
+}
+
+.parrafo-1 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.parrafo-2 {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.parrafo-3 {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.parrafo-4 {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+
+/* Menú desplegable */
+.dropdown .dropdown-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.dropdown .dropdown-toggle:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #343a40;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #a6a8aa;
+}
+
+/* Ajuste de imágenes en el carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Contenido de acuerdo a la edad */
+.container.mt-4 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container.mt-4 h1 {
+    margin-bottom: 1rem;
+    color: #f1f1f1;
+}
+
+.container.mt-4 p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #161616;
+}
+
+.container.mt-4 img {
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+/* Estilo para el banner condicional */
+#carouselBanner .carousel-item img {
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.text-center.mayores h1 {
+    color: #ec7411;
+}
+
+.text-center.menores h1 {
+    color: #dc3545;
+}
+
+.text-center p {
+    font-size: 18px;
+    color: #e1ebf5;
+}
+
+
+/* Carrusel de empresas */
+#carouselBanner {
+    margin-top: 30px;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(217deg, coral, rgba(53, 2, 77, 0) 70.71%);
+    padding: 20px;
+    color: #fff;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 150px;
+    border-radius: 10px;
+}

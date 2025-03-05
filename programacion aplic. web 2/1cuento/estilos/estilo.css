@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(238, 73, 73, 0.788);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #14f5e2ce;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form select,
+form button {
+    padding: 5px;
+}
+
+.imagen-cuento {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen-cuento img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.texto-cuento {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}

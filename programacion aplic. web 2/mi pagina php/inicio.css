@@ -1,0 +1,81 @@
+/* Estilo general del cuerpo de la página de inicio */
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(217deg, rgb(228, 58, 151), rgb(131, 18, 212), rgb(49, 184, 189), rgb(11, 219, 150), rgb(14, 185, 236), rgb(131, 18, 212), rgb(228, 58, 151));
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+/* Contenedor del formulario de bienvenida */
+.welcome-container {
+    background: linear-gradient(217deg, coral, rgba(53, 2, 77, 0) 70.71%);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Encabezado de bienvenida */
+.welcome-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Texto de instrucciones */
+.welcome-container p {
+    font-size: 1em;
+    color: #575353;
+    margin-bottom: 30px;
+}
+
+/* Estilo de los campos de entrada */
+.welcome-container input[type="text"],
+.welcome-container input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* Estilo del checkbox */
+.welcome-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo del botón de envío */
+.welcome-container button,
+.welcome-container input[type="submit"] {
+    width: 100%;
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.welcome-container button:hover,
+.welcome-container input[type="submit"]:hover {
+    background: linear-gradient(217deg, coral, rgba(115, 2, 167, 0.781) 70.71%);
+}
+
+/* Mensaje de pie de página */
+.welcome-footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6e6565;
+}
